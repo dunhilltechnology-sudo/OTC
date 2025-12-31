@@ -8,22 +8,22 @@ import { Footer } from "@/components/Footer";
 
 const team = [
   {
-    name: "Arjun Mehta",
-    role: "Founder & Lead Designer",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1974&auto=format&fit=crop",
-    bio: "With 15 years in furniture design, Arjun brings vision and precision to every creation.",
+    name: "Kanchan Lakra",
+    role: "Co-founder /\nProduct Designer",
+    image: "https://i.ibb.co/8LPVdthC/IMG-0032-1.jpg",
+    // bio: "With 15 years in furniture design, Arjun brings vision and precision to every creation.",
   },
   {
-    name: "Priya Sharma",
-    role: "Creative Director",
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1974&auto=format&fit=crop",
-    bio: "Priya's eye for detail transforms spaces into experiences.",
+    name: "Vaibhav Tak",
+    role: "Co-founder /\nInterior & lighting designer",
+    image: "https://i.ibb.co/MDsJ4nSg/IMG-0021-1.jpg",
+    // bio: "Priya's eye for detail transforms spaces into experiences.",
   },
   {
-    name: "Rahul Verma",
-    role: "Master Craftsman",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=2070&auto=format&fit=crop",
-    bio: "Third-generation woodworker with expertise in traditional joinery.",
+    name: "Skilled craftsman",
+    role: "Our Backbone",
+    image: "https://i.ibb.co/Ps2nxM2d/skilled.png",
+    // bio: "Third-generation woodworker with expertise in traditional joinery.",
   },
 ];
 
@@ -143,14 +143,12 @@ export default function AboutPage() {
               </h2>
               <div className="space-y-6 text-lg text-[#666] font-light leading-relaxed">
                 <p>
-                  Ode to Creation began in a small Bangalore workshop in 2018, driven by a simple belief: that furniture should be more than functional — it should be meaningful.
-                </p>
+                Our studio is based in Jodhpur, Rajasthan, where craft runs deep and materials speak louder than trends. What began as a small passion project where we sketch, experiment, and build out of a modest workshop has grown into a full fledged design studio. But at our core, we're still as hands-on, curious, and detail obsessed as we were on day one.
+                 </p>
                 <p>
-                  We started with three people, a collection of hand tools, and an unwavering commitment to quality. Today, we're a team of 25 artisans, designers, and dreamers, but our philosophy remains unchanged.
-                </p>
-                <p>
-                  Every piece we create is an ode to the beauty of raw materials, the wisdom of traditional techniques, and the homes that will cherish them for generations.
-                </p>
+                 We're just a bunch of curious minds who love building things — not formulas. No mass production, no overthinking. Just honest materials, thoughtful design, and a hands-on approach to every piece and space we create. We believe good design doesn't need to shout; it just needs to feel right.
+                  </p>
+                
               </div>
             </motion.div>
 

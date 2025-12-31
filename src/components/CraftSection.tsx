@@ -12,19 +12,19 @@ const crafts = [
   {
     title: "Furniture",
     subtitle: "Design",
-    description: "Timeless forms shaped by thoughtful craftsmanship. Each piece tells a story of dedication and artistry.",
+    description: "We design furniture that actually fits — your space, your style, and your mood swings. From sleek statement pieces to cozy corners, we blend brains, beauty, and a bit of madness to craft furniture that feels made just for you (because it is).",
     image: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=2070&auto=format&fit=crop",
   },
   {
     title: "Interior",
     subtitle: "Design",
-    description: "Spaces curated with balance, warmth, and intention. Where every element has purpose.",
+    description: "Think of us as design therapists for your space. We listen, we plan, and then we work our magic — transforming chaos into calm, and meh into wow. From mood boards to move-in, we bring interiors to life with a blend of function, feeling, and furniture that actually fits the vibe and the room.",
     image: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=2000&auto=format&fit=crop",
   },
   {
     title: "Lighting",
     subtitle: "Design",
-    description: "Light that enhances mood, texture, and architecture. Illuminating beauty in every corner.",
+    description: "Let there be light — but the right kind. lighting isn't an afterthought; it's the soul of the space. We design layers of light that work with your interiors, highlight what matters, and occasionally make you feel like you're living in a magazine spread. Functional by day, magical by night — exactly how lighting should be.",
     image: "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?q=80&w=1974&auto=format&fit=crop",
   },
 ];
@@ -190,7 +190,7 @@ export function CraftSection() {
           <span className="text-[#d4a574] text-sm uppercase tracking-[0.4em] font-light">
             What We Do
           </span>
-          <h2 className="text-4xl  md:text-6xl lg:text-7xl font-serif font-light mt-6 tracking-tight">
+          <h2 className="text-4xl md:text-6xl lg:text-7xl font-serif font-light mt-6 tracking-tight">
             Our Craft &<br />
             <span className="text-[#92400e]">Creation</span>
           </h2>

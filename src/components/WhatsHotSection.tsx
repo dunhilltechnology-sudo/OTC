@@ -8,31 +8,32 @@ import Link from "next/link";
 const products = [
   {
     id: 1,
-    name: "Aria Lounge Chair",
-    category: "Seating",
-    price: "₹45,000",
-    image: "https://images.unsplash.com/photo-1592078615290-033ee584e267?q=80&w=1964&auto=format&fit=crop",
+    name: "Perennial",
+    category: "Accent Chair",
+    // price: "₹45,000",
+    image: "https://i.postimg.cc/MxmBKNH1/modchair.png",
   },
   {
     id: 2,
-    name: "Teak Dining Table",
-    category: "Tables",
-    price: "₹85,000",
-    image: "https://images.unsplash.com/photo-1577140917170-285929fb55b7?q=80&w=2070&auto=format&fit=crop",
+    name: "Pilgrim",
+    category: "Side Table",
+    // price: "₹85,000",
+    image: "https://i.postimg.cc/VvpGQG58/Screenshot-2025-07-26-at-2-43-18-PM-removebg-preview.png",
+    
   },
   {
     id: 3,
-    name: "Helix Pendant Light",
-    category: "Lighting",
-    price: "₹28,000",
-    image: "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?q=80&w=1974&auto=format&fit=crop",
+    name: "Yucca",
+    category: "Accent Chair",
+    // price: "₹28,000",
+    image: "https://i.postimg.cc/CLZDRMrJ/Screenshot-2025-07-26-at-2-53-23-PM-removebg-preview.png",
   },
   {
     id: 4,
     name: "Woven Accent Rug",
-    category: "Textiles",
-    price: "₹18,000",
-    image: "https://images.unsplash.com/photo-1531835551805-16d864c8d311?q=80&w=1974&auto=format&fit=crop",
+    category: "Seatings",
+    // price: "₹18,000",
+    image: "https://images.unsplash.com/photo-1592078615290-033ee584e267?q=80&w=1964&auto=format&fit=crop",
   },
 ];
 

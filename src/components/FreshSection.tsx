@@ -67,8 +67,8 @@ export function FreshSection() {
               transition={{ delay: 0.3 }}
               className="text-lg md:text-xl text-[#666] font-light leading-relaxed max-w-lg"
             >
-              Fresh designs straight from the workshop. Each piece carries the warmth of human hands and the precision of thoughtful design.
-            </motion.p>
+          Fresh designs straight from the workshop.
+Still smelling like sawdust and big ideas.  </motion.p>
 
             <motion.div
               initial={{ opacity: 0 }}
