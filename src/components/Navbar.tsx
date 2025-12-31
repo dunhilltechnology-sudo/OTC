@@ -46,18 +46,19 @@ export function Navbar() {
             : "bg-transparent py-6 md:py-8"
         }`}
       >
-          <div className="container mx-auto px-6 md:px-12 flex justify-between items-center">
-            <Link href="/" className="flex items-center">
-              <img
-                src="https://i.ibb.co/QvjTVhy1/Screenshot-2025-08-15-at-9-13-34-PM-removebg-preview.png"
-                alt="ODE TO CREATION"
-                className={`h-10 md:h-14 w-auto transition-all duration-500 ${
-                  isDarkBg ? "brightness-0 invert" : ""
-                }`}
-              />
-            </Link>
+        <div className="container mx-auto px-6 md:px-12 flex justify-between items-center">
+          <Link href="/" className="group relative">
+            <motion.span
+              className={`text-lg md:text-xl font-serif font-light tracking-[0.25em] uppercase transition-colors duration-300 ${
+                isDarkBg ? "text-white" : "text-[#1a1a1a]"
+              } group-hover:text-[#92400e]`}
+            >
+              Ode to Creation
+            </motion.span>
+            <span className="absolute -bottom-1 left-0 w-0 h-[1px] bg-[#d4a574] group-hover:w-full transition-all duration-500" />
+          </Link>
 
-            <div className="hidden lg:flex items-center gap-10">
+          <div className="hidden lg:flex items-center gap-10">
             {navLinks.map((link) => {
               const isActive = pathname === link.href;
               return (
@@ -183,7 +184,7 @@ export function Navbar() {
                     <p className="text-xs uppercase tracking-[0.2em] text-[#92400e]">
                       Contact
                     </p>
-                    <p className="text-lg font-light">hello@odetocreation.in</p>
+                    <p className="text-lg font-light">Contact@odetocreation.com</p>
                     <p className="text-lg font-light">+91 98765 43210</p>
                   </div>
 

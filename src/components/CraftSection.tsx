@@ -13,19 +13,19 @@ const crafts = [
     title: "Furniture",
     subtitle: "Design",
     description: "We design furniture that actually fits — your space, your style, and your mood swings. From sleek statement pieces to cozy corners, we blend brains, beauty, and a bit of madness to craft furniture that feels made just for you (because it is).",
-    image: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=2070&auto=format&fit=crop",
+    image: "https://i.ibb.co/Xxp9mpNL/IMG-1309.jpg",
   },
   {
     title: "Interior",
     subtitle: "Design",
     description: "Think of us as design therapists for your space. We listen, we plan, and then we work our magic — transforming chaos into calm, and meh into wow. From mood boards to move-in, we bring interiors to life with a blend of function, feeling, and furniture that actually fits the vibe and the room.",
-    image: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=2000&auto=format&fit=crop",
+    image: "https://i.ibb.co/5XmFVZ32/IMG-5955.jpg",
   },
   {
     title: "Lighting",
     subtitle: "Design",
     description: "Let there be light — but the right kind. lighting isn't an afterthought; it's the soul of the space. We design layers of light that work with your interiors, highlight what matters, and occasionally make you feel like you're living in a magazine spread. Functional by day, magical by night — exactly how lighting should be.",
-    image: "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?q=80&w=1974&auto=format&fit=crop",
+    image: "https://i.ibb.co/kVxG8T2p/IMG-1311-1.jpg",
   },
 ];
 

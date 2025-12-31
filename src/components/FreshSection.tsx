@@ -137,7 +137,7 @@ Still smelling like sawdust and big ideas.  </motion.p>
                 className="relative w-full h-full"
               >
                 <Image
-                  src="https://images.unsplash.com/photo-1551298698-66b830a4f11c?q=80&w=2070&auto=format&fit=crop"
+                  src="https://i.ibb.co/YFSW4kvq/IMG-5687-1.jpg"
                   alt="Fresh Collection"
                   fill
                   className="object-cover"
@@ -164,7 +164,7 @@ Still smelling like sawdust and big ideas.  </motion.p>
                 Featured
               </p>
               <h4 className="text-xl font-serif font-light mb-2">
-                Horizon Console Table
+                Fresh collection
               </h4>
               <p className="text-sm text-[#666] font-light">
                 Solid teak with brass inlay

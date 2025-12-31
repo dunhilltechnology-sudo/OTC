@@ -43,17 +43,17 @@ export function Footer() {
       >
         <div className="container mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 mb-24">
-              <div className="lg:col-span-5 space-y-12">
-                <Link href="/" className="inline-block group">
-                  <motion.img
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
-                    src="https://i.ibb.co/QvjTVhy1/Screenshot-2025-08-15-at-9-13-34-PM-removebg-preview.png"
-                    alt="ODE TO CREATION"
-                    className="h-16 md:h-20 w-auto brightness-0 invert opacity-90 group-hover:opacity-100 transition-all duration-500"
-                  />
-                </Link>
+            <div className="lg:col-span-5 space-y-12">
+              <Link href="/" className="inline-block group">
+                <motion.span
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  className="text-3xl md:text-4xl font-serif font-light tracking-[0.2em] uppercase group-hover:text-[#d4a574] transition-colors duration-500"
+                >
+                  Ode to Creation
+                </motion.span>
+              </Link>
 
               <motion.p
                 initial={{ opacity: 0 }}
@@ -161,7 +161,7 @@ export function Footer() {
 
                 <div className="pt-8 space-y-2">
                   <p className="text-white/30 text-sm font-light">
-                    hello@odetocreation.in
+               Contact@odetocreation.com
                   </p>
                   <p className="text-white/30 text-sm font-light">
                     +91 98765 43210

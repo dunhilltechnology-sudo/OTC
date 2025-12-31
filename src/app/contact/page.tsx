@@ -33,8 +33,8 @@ export default function ContactPage() {
     {
       icon: <Mail className="w-5 h-5" />,
       label: "Email",
-      value: "hello@odetocreation.in",
-      href: "mailto:hello@odetocreation.in",
+      value: "Contact@odetocreation.com",
+      href: "mailto:Contact@odetocreation.com",
     },
     {
       icon: <Phone className="w-5 h-5" />,
@@ -45,7 +45,7 @@ export default function ContactPage() {
     {
       icon: <MapPin className="w-5 h-5" />,
       label: "Studio",
-      value: "123 Design Lane, Koramangala, Bangalore 560034",
+      value: "1st floor, 54, Sangam nagar, KBHB, Jodhpur, Rajasthan 342005",
       href: "#",
     },
     {
@@ -294,10 +294,10 @@ export default function ContactPage() {
               Visit Our Studio
             </p>
             <h3 className="text-4xl md:text-5xl font-serif font-light mb-6">
-              123 Design Lane, Koramangala
+             1st floor, 54, Sangam nagar
             </h3>
             <p className="text-white/70 font-light">
-              Bangalore 560034, Karnataka, India
+             Jodhpur, Rajasthan 342005
             </p>
           </motion.div>
         </div>
