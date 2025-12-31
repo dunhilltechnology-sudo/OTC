@@ -177,9 +177,10 @@ export default function ProductsPage() {
     offset: ["start start", "end start"],
   });
 
+
   const headerY = useTransform(scrollYProgress, [0, 0.3], [0, -100]);
   const headerOpacity = useTransform(scrollYProgress, [0, 0.2], [1, 0]);
-
+ const imageY = useTransform(scrollYProgress, [0, 1], [0, 200]);
   const filteredProducts = activeCategory === "All"
     ? products
     : products.filter((p) => p.category === activeCategory);
@@ -188,9 +189,18 @@ export default function ProductsPage() {
     <main ref={containerRef} className="min-h-screen bg-[#f8f5f0]">
       <Navbar />
 
-      <section className="relative h-[70vh] overflow-hidden bg-[#1a1a1a]">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_50%,#2a2a2a_0%,#1a1a1a_70%)]" />
-        
+    
+         <section className="relative h-[70vh] overflow-hidden bg-[#1a1a1a]">
+          <motion.div style={{ y: imageY }} className="absolute inset-0 z-0">
+            <Image
+              src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=2000&auto=format&fit=crop"
+              alt="Products Collection"
+              fill
+              priority
+              className="object-cover opacity-60 scale-110"
+            />
+            <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/40 to-transparent" />
+          </motion.div>
         <motion.div
           style={{ y: headerY, opacity: headerOpacity }}
           className="relative z-10 h-full flex flex-col justify-center items-center text-center px-6"
