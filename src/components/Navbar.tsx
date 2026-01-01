@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
@@ -46,17 +47,22 @@ export function Navbar() {
             : "bg-transparent py-6 md:py-8"
         }`}
       >
-        <div className="container mx-auto px-6 md:px-12 flex justify-between items-center">
-          <Link href="/" className="group relative">
-            <motion.span
-              className={`text-lg md:text-xl font-serif font-light tracking-[0.25em] uppercase transition-colors duration-300 ${
-                isDarkBg ? "text-white" : "text-[#1a1a1a]"
-              } group-hover:text-[#92400e]`}
-            >
-              Ode to Creation
-            </motion.span>
-            <span className="absolute -bottom-1 left-0 w-0 h-[1px] bg-[#d4a574] group-hover:w-full transition-all duration-500" />
-          </Link>
+          <div className="container mx-auto px-6 md:px-12 flex justify-between items-center">
+            <Link href="/" className="group relative flex items-center">
+              <div className={`relative h-10 w-32 md:h-12 md:w-40 transition-all duration-500 ${
+                isDarkBg ? "brightness-0 invert" : ""
+              }`}>
+                <Image
+                  src="https://i.ibb.co/QvjTVhy1/Screenshot-2025-08-15-at-9-13-34-PM-removebg-preview.png"
+                  alt="Ode to Creation Logo"
+                  fill
+                  className="object-contain"
+                  priority
+                />
+              </div>
+              <span className="absolute -bottom-1 left-0 w-0 h-[1px] bg-[#d4a574] group-hover:w-full transition-all duration-500" />
+            </Link>
+
 
           <div className="hidden lg:flex items-center gap-10">
             {navLinks.map((link) => {

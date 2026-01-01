@@ -1,14 +1,14 @@
 "use client";
 
 import React, { useRef } from "react";
-
 import Link from "next/link";
+import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { Instagram, Facebook, Linkedin, ArrowUpRight } from "lucide-react";
-
+ 
 export function Footer() {
   const containerRef = useRef<HTMLDivElement>(null);
-
+ 
   const { scrollYProgress } = useScroll({
     target: containerRef,
     offset: ["start end", "end end"],
@@ -42,18 +42,24 @@ export function Footer() {
         className="relative z-10 pt-32 pb-12 px-6 md:px-12"
       >
         <div className="container mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 mb-24">
-            <div className="lg:col-span-5 space-y-12">
-              <Link href="/" className="inline-block group">
-                <motion.span
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  className="text-3xl md:text-4xl font-serif font-light tracking-[0.2em] uppercase group-hover:text-[#d4a574] transition-colors duration-500"
-                >
-                  Ode to Creation
-                </motion.span>
-              </Link>
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 mb-24">
+              <div className="lg:col-span-5 space-y-12">
+                <Link href="/" className="inline-block group">
+                  <motion.div
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    className="relative h-12 w-48 md:h-16 md:w-56 brightness-0 invert"
+                  >
+                    <Image
+                      src="https://i.ibb.co/QvjTVhy1/Screenshot-2025-08-15-at-9-13-34-PM-removebg-preview.png"
+                      alt="Ode to Creation Logo"
+                      fill
+                      className="object-contain"
+                    />
+                  </motion.div>
+                </Link>
+
 
               <motion.p
                 initial={{ opacity: 0 }}
