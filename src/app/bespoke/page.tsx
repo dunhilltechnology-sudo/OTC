@@ -87,7 +87,7 @@ export default function BespokePage() {
           className="absolute inset-0"
         >
           <Image
-            src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?q=80&w=2158&auto=format&fit=crop"
+            src="https://i.ibb.co/ccHFm6dh/67da9fa400490-Molteni-Catalogo-7-0572-2025-HR-1.jpg"
             alt="Bespoke Workshop"
             fill
             className="object-cover"
